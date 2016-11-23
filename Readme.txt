@@ -35,4 +35,4 @@ An example can be found in ./src/main/resources/log4j.xml
 MAINTAINERS
 -------------
 
-AT&T DMaaP Development Team
+AT&T CambriaClient Development Team
