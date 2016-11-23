@@ -16,9 +16,9 @@ node {
     // Run the maven build
     //sh for unix bat for windows
 	
-	sh "${mvnHome}/bin/mvn -f cambriaclients/pom.xml clean deploy"
-    sh "${mvnHome}/bin/mvn -f saclientlibrary/pom.xml clean deploy"
-    sh "${mvnHome}/bin/mvn -f satoolkit/pom.xml clean deploy"
+	sh "${mvnHome}/bin/mvn -f satoolkit/pom.xml clean deploy"
+	sh "${mvnHome}/bin/mvn -f saclientlibrary/pom.xml clean deploy"
+	sh "${mvnHome}/bin/mvn -f cambriaclients/pom.xml clean deploy"   
 	
     
     
